@@ -1,0 +1,100 @@
+body {
+    background: url('background.jpeg') center/cover no-repeat;
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Brush Script MT", cursive, sans-serif;
+    font-size: 32px; /* Adjust size as needed */
+    color: #ff4d88; /* Cute pink color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+.yes-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('yesvalentine.jpeg') center/cover no-repeat;
+}
+
+.yes-box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+}
+
+.yes-text {
+    font-family: "Comic Sans MS", "Brush Script MT", cursive, sans-serif;
+    font-size: 32px;
+    color: #ff4d88;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.yesgif{
+    width: 400px;
+    height: auto;
+    border-radius: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gif {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.buttons {
+    margin-top: 20px;
+}
+
+.yes-button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.no-button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
